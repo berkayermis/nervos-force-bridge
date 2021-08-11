@@ -7,7 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import './app.scss';
 import 'react-toastify/dist/ReactToastify.css';
 import { PolyjuiceHttpProvider } from '@polyjuice-provider/web3';
-import { AddressTranslator } from 'nervos-godwoken-integration';
+import { AddressTranslator, BridgeRPCHandler } from 'nervos-godwoken-integration';
 import * as CompiledContractArtifact from '../../build/contracts/ERC20.json';
 import { SimpleStorageWrapper } from '../lib/contracts/SimpleStorageWrapper';
 import { CONFIG } from '../config';
