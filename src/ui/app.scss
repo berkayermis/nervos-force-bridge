@@ -57,7 +57,7 @@ button:hover{
     padding: 30px 0;
     height:100%;
     weight:100%;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 button{
@@ -73,22 +73,18 @@ button{
     .deposit-addr {
         background-color: brown;
         color: white;
-        max-width: 60vw;
+        max-width: 1150px;
         padding: 15px;
-        border-radius: 20px;
+        border-radius: 10px;
         overflow-wrap: break-word;
-        word-wrap: break-word;
-        box-shadow: 5px 10px #d1d1d1;
     }
 
     .next-step {
         background-color: brown;
         color: white;
-        max-width: 60vw;
+        max-width: 1150px;
         padding: 15px;
-        border-radius: 20px;
+        border-radius: 10px;
         overflow-wrap: break-word;
-        word-wrap: break-word;
-        // box-shadow: 5px 10px #d1d1d1;
     }
 }
